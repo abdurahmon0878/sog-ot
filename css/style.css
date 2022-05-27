@@ -1,0 +1,52 @@
+:root{
+    --rob:"Roboto_Mono.zip";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background: url(../rasm.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sogot{
+    font-family: var(--rob);
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: red;
+    padding-top: 190px;
+    
+}
+.hours{
+    margin-right: 10px;
+}
+.second{
+    margin-left: 10px;
+}
+.minutes{
+    margin: 10px;
+}
+.nuqta{
+    margin-bottom: 30px;
+    
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 50px;
+    
+}
+
+
+
+
+
